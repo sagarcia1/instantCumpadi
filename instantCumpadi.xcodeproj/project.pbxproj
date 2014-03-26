@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		820668C918E315E400038B72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820668C818E315E400038B72 /* Foundation.framework */; };
+		820668CB18E315E400038B72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820668CA18E315E400038B72 /* CoreGraphics.framework */; };
+		820668CD18E315E400038B72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820668CC18E315E400038B72 /* UIKit.framework */; };
+		820668D318E315E400038B72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 820668D118E315E400038B72 /* InfoPlist.strings */; };
+		820668D518E315E400038B72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 820668D418E315E400038B72 /* main.m */; };
+		820668D918E315E400038B72 /* DRIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 820668D818E315E400038B72 /* DRIAppDelegate.m */; };
+		820668DC18E315E400038B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820668DA18E315E400038B72 /* Main.storyboard */; };
+		820668DF18E315E400038B72 /* DRIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820668DE18E315E400038B72 /* DRIViewController.m */; };
+		820668E118E315E400038B72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820668E018E315E400038B72 /* Images.xcassets */; };
+		820668E818E315E400038B72 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820668E718E315E400038B72 /* XCTest.framework */; };
+		820668E918E315E400038B72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820668C818E315E400038B72 /* Foundation.framework */; };
+		820668EA18E315E400038B72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820668CC18E315E400038B72 /* UIKit.framework */; };
+		820668F218E315E400038B72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 820668F018E315E400038B72 /* InfoPlist.strings */; };
+		820668F418E315E400038B72 /* instantCumpadiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 820668F318E315E400038B72 /* instantCumpadiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		820668EB18E315E400038B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 820668BD18E315E400038B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820668C418E315E400038B72;
+			remoteInfo = instantCumpadi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		820668C518E315E400038B72 /* instantCumpadi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instantCumpadi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		820668C818E315E400038B72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		820668CA18E315E400038B72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		820668CC18E315E400038B72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		820668D018E315E400038B72 /* instantCumpadi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "instantCumpadi-Info.plist"; sourceTree = "<group>"; };
+		820668D218E315E400038B72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		820668D418E315E400038B72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		820668D618E315E400038B72 /* instantCumpadi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instantCumpadi-Prefix.pch"; sourceTree = "<group>"; };
+		820668D718E315E400038B72 /* DRIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRIAppDelegate.h; sourceTree = "<group>"; };
+		820668D818E315E400038B72 /* DRIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRIAppDelegate.m; sourceTree = "<group>"; };
+		820668DB18E315E400038B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		820668DD18E315E400038B72 /* DRIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRIViewController.h; sourceTree = "<group>"; };
+		820668DE18E315E400038B72 /* DRIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRIViewController.m; sourceTree = "<group>"; };
+		820668E018E315E400038B72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		820668E618E315E400038B72 /* instantCumpadiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instantCumpadiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		820668E718E315E400038B72 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		820668EF18E315E400038B72 /* instantCumpadiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "instantCumpadiTests-Info.plist"; sourceTree = "<group>"; };
+		820668F118E315E400038B72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		820668F318E315E400038B72 /* instantCumpadiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instantCumpadiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		820668C218E315E400038B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820668CB18E315E400038B72 /* CoreGraphics.framework in Frameworks */,
+				820668CD18E315E400038B72 /* UIKit.framework in Frameworks */,
+				820668C918E315E400038B72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820668E318E315E400038B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820668E818E315E400038B72 /* XCTest.framework in Frameworks */,
+				820668EA18E315E400038B72 /* UIKit.framework in Frameworks */,
+				820668E918E315E400038B72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		820668BC18E315E400038B72 = {
+			isa = PBXGroup;
+			children = (
+				820668CE18E315E400038B72 /* instantCumpadi */,
+				820668ED18E315E400038B72 /* instantCumpadiTests */,
+				820668C718E315E400038B72 /* Frameworks */,
+				820668C618E315E400038B72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		820668C618E315E400038B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820668C518E315E400038B72 /* instantCumpadi.app */,
+				820668E618E315E400038B72 /* instantCumpadiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		820668C718E315E400038B72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				820668C818E315E400038B72 /* Foundation.framework */,
+				820668CA18E315E400038B72 /* CoreGraphics.framework */,
+				820668CC18E315E400038B72 /* UIKit.framework */,
+				820668E718E315E400038B72 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		820668CE18E315E400038B72 /* instantCumpadi */ = {
+			isa = PBXGroup;
+			children = (
+				820668D718E315E400038B72 /* DRIAppDelegate.h */,
+				820668D818E315E400038B72 /* DRIAppDelegate.m */,
+				820668DA18E315E400038B72 /* Main.storyboard */,
+				820668DD18E315E400038B72 /* DRIViewController.h */,
+				820668DE18E315E400038B72 /* DRIViewController.m */,
+				820668E018E315E400038B72 /* Images.xcassets */,
+				820668CF18E315E400038B72 /* Supporting Files */,
+			);
+			path = instantCumpadi;
+			sourceTree = "<group>";
+		};
+		820668CF18E315E400038B72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				820668D018E315E400038B72 /* instantCumpadi-Info.plist */,
+				820668D118E315E400038B72 /* InfoPlist.strings */,
+				820668D418E315E400038B72 /* main.m */,
+				820668D618E315E400038B72 /* instantCumpadi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		820668ED18E315E400038B72 /* instantCumpadiTests */ = {
+			isa = PBXGroup;
+			children = (
+				820668F318E315E400038B72 /* instantCumpadiTests.m */,
+				820668EE18E315E400038B72 /* Supporting Files */,
+			);
+			path = instantCumpadiTests;
+			sourceTree = "<group>";
+		};
+		820668EE18E315E400038B72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				820668EF18E315E400038B72 /* instantCumpadiTests-Info.plist */,
+				820668F018E315E400038B72 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		820668C418E315E400038B72 /* instantCumpadi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820668F718E315E400038B72 /* Build configuration list for PBXNativeTarget "instantCumpadi" */;
+			buildPhases = (
+				820668C118E315E400038B72 /* Sources */,
+				820668C218E315E400038B72 /* Frameworks */,
+				820668C318E315E400038B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instantCumpadi;
+			productName = instantCumpadi;
+			productReference = 820668C518E315E400038B72 /* instantCumpadi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		820668E518E315E400038B72 /* instantCumpadiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820668FA18E315E400038B72 /* Build configuration list for PBXNativeTarget "instantCumpadiTests" */;
+			buildPhases = (
+				820668E218E315E400038B72 /* Sources */,
+				820668E318E315E400038B72 /* Frameworks */,
+				820668E418E315E400038B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820668EC18E315E400038B72 /* PBXTargetDependency */,
+			);
+			name = instantCumpadiTests;
+			productName = instantCumpadiTests;
+			productReference = 820668E618E315E400038B72 /* instantCumpadiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		820668BD18E315E400038B72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DRI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.bit4All.MemeDado;
+				TargetAttributes = {
+					820668E518E315E400038B72 = {
+						TestTargetID = 820668C418E315E400038B72;
+					};
+				};
+			};
+			buildConfigurationList = 820668C018E315E400038B72 /* Build configuration list for PBXProject "instantCumpadi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 820668BC18E315E400038B72;
+			productRefGroup = 820668C618E315E400038B72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				820668C418E315E400038B72 /* instantCumpadi */,
+				820668E518E315E400038B72 /* instantCumpadiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		820668C318E315E400038B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820668E118E315E400038B72 /* Images.xcassets in Resources */,
+				820668D318E315E400038B72 /* InfoPlist.strings in Resources */,
+				820668DC18E315E400038B72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820668E418E315E400038B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820668F218E315E400038B72 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		820668C118E315E400038B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820668D918E315E400038B72 /* DRIAppDelegate.m in Sources */,
+				820668DF18E315E400038B72 /* DRIViewController.m in Sources */,
+				820668D518E315E400038B72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820668E218E315E400038B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820668F418E315E400038B72 /* instantCumpadiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		820668EC18E315E400038B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 820668C418E315E400038B72 /* instantCumpadi */;
+			targetProxy = 820668EB18E315E400038B72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		820668D118E315E400038B72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820668D218E315E400038B72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		820668DA18E315E400038B72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820668DB18E315E400038B72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		820668F018E315E400038B72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820668F118E315E400038B72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		820668F518E315E400038B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		820668F618E315E400038B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		820668F818E315E400038B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instantCumpadi/instantCumpadi-Prefix.pch";
+				INFOPLIST_FILE = "instantCumpadi/instantCumpadi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		820668F918E315E400038B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instantCumpadi/instantCumpadi-Prefix.pch";
+				INFOPLIST_FILE = "instantCumpadi/instantCumpadi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		820668FB18E315E400038B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/instantCumpadi.app/instantCumpadi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instantCumpadi/instantCumpadi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "instantCumpadiTests/instantCumpadiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		820668FC18E315E400038B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/instantCumpadi.app/instantCumpadi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instantCumpadi/instantCumpadi-Prefix.pch";
+				INFOPLIST_FILE = "instantCumpadiTests/instantCumpadiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		820668C018E315E400038B72 /* Build configuration list for PBXProject "instantCumpadi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820668F518E315E400038B72 /* Debug */,
+				820668F618E315E400038B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820668F718E315E400038B72 /* Build configuration list for PBXNativeTarget "instantCumpadi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820668F818E315E400038B72 /* Debug */,
+				820668F918E315E400038B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		820668FA18E315E400038B72 /* Build configuration list for PBXNativeTarget "instantCumpadiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820668FB18E315E400038B72 /* Debug */,
+				820668FC18E315E400038B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 820668BD18E315E400038B72 /* Project object */;
+}
