@@ -23,7 +23,6 @@
 		820668F418E315E400038B72 /* instantCumpadiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 820668F318E315E400038B72 /* instantCumpadiTests.m */; };
 		820668FE18E317C300038B72 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820668FD18E317C300038B72 /* AudioToolbox.framework */; };
 		8206690018E31BFF00038B72 /* Washington.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 820668FF18E31BFF00038B72 /* Washington.mp3 */; };
-		8206690218E31D4600038B72 /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8206690118E31D4600038B72 /* imgres.jpg */; };
 		8206690518E336E100038B72 /* btverde.png in Resources */ = {isa = PBXBuildFile; fileRef = 8206690318E336E100038B72 /* btverde.png */; };
 		8206690618E336E100038B72 /* free-vector-red-power-button-clip-art_117509_Red_Power_Button_clip_art_hight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8206690418E336E100038B72 /* free-vector-red-power-button-clip-art_117509_Red_Power_Button_clip_art_hight.png */; };
 		8206690818E33A3700038B72 /* sabedeNada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8206690718E33A3700038B72 /* sabedeNada.mp3 */; };
@@ -31,7 +30,7 @@
 		8206690C18E33C7D00038B72 /* danada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8206690A18E33C7D00038B72 /* danada.mp3 */; };
 		827781A018E3411D001CEB22 /* 17878.png in Resources */ = {isa = PBXBuildFile; fileRef = 8277819F18E3411D001CEB22 /* 17878.png */; };
 		82A2F8F018FC10BC00C774A0 /* Washington.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82A2F8EF18FC10BC00C774A0 /* Washington.mp3 */; };
-		82A2F8F218FC10D200C774A0 /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82A2F8F118FC10D200C774A0 /* imgres.jpg */; };
+		82A2F8F618FC116E00C774A0 /* cumpadi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82A2F8F518FC116E00C774A0 /* cumpadi2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +65,6 @@
 		820668F318E315E400038B72 /* instantCumpadiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instantCumpadiTests.m; sourceTree = "<group>"; };
 		820668FD18E317C300038B72 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		820668FF18E31BFF00038B72 /* Washington.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Washington.mp3; path = ../../../../Desktop/Washington.mp3; sourceTree = "<group>"; };
-		8206690118E31D4600038B72 /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = imgres.jpg; path = ../../../../Desktop/imgres.jpg; sourceTree = "<group>"; };
 		8206690318E336E100038B72 /* btverde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btverde.png; sourceTree = "<group>"; };
 		8206690418E336E100038B72 /* free-vector-red-power-button-clip-art_117509_Red_Power_Button_clip_art_hight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "free-vector-red-power-button-clip-art_117509_Red_Power_Button_clip_art_hight.png"; sourceTree = "<group>"; };
 		8206690718E33A3700038B72 /* sabedeNada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sabedeNada.mp3; sourceTree = "<group>"; };
@@ -74,7 +72,7 @@
 		8206690A18E33C7D00038B72 /* danada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = danada.mp3; sourceTree = "<group>"; };
 		8277819F18E3411D001CEB22 /* 17878.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17878.png; sourceTree = "<group>"; };
 		82A2F8EF18FC10BC00C774A0 /* Washington.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Washington.mp3; sourceTree = "<group>"; };
-		82A2F8F118FC10D200C774A0 /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
+		82A2F8F518FC116E00C774A0 /* cumpadi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cumpadi2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,8 +191,7 @@
 		8206690E18E33C9A00038B72 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				8206690118E31D4600038B72 /* imgres.jpg */,
-				82A2F8F118FC10D200C774A0 /* imgres.jpg */,
+				82A2F8F518FC116E00C774A0 /* cumpadi2.jpg */,
 				8277819F18E3411D001CEB22 /* 17878.png */,
 				8206690318E336E100038B72 /* btverde.png */,
 				8206690418E336E100038B72 /* free-vector-red-power-button-clip-art_117509_Red_Power_Button_clip_art_hight.png */,
@@ -281,9 +278,7 @@
 			files = (
 				820668E118E315E400038B72 /* Images.xcassets in Resources */,
 				827781A018E3411D001CEB22 /* 17878.png in Resources */,
-				8206690218E31D4600038B72 /* imgres.jpg in Resources */,
 				8206690B18E33C7D00038B72 /* queabundancia.mp3 in Resources */,
-				82A2F8F218FC10D200C774A0 /* imgres.jpg in Resources */,
 				8206690C18E33C7D00038B72 /* danada.mp3 in Resources */,
 				820668D318E315E400038B72 /* InfoPlist.strings in Resources */,
 				8206690018E31BFF00038B72 /* Washington.mp3 in Resources */,
@@ -291,6 +286,7 @@
 				8206690618E336E100038B72 /* free-vector-red-power-button-clip-art_117509_Red_Power_Button_clip_art_hight.png in Resources */,
 				820668DC18E315E400038B72 /* Main.storyboard in Resources */,
 				82A2F8F018FC10BC00C774A0 /* Washington.mp3 in Resources */,
+				82A2F8F618FC116E00C774A0 /* cumpadi2.jpg in Resources */,
 				8206690518E336E100038B72 /* btverde.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
