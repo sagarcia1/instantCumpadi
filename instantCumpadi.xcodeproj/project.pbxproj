@@ -21,6 +21,15 @@
 		820668EA18E315E400038B72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820668CC18E315E400038B72 /* UIKit.framework */; };
 		820668F218E315E400038B72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 820668F018E315E400038B72 /* InfoPlist.strings */; };
 		820668F418E315E400038B72 /* instantCumpadiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 820668F318E315E400038B72 /* instantCumpadiTests.m */; };
+		820668FE18E317C300038B72 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820668FD18E317C300038B72 /* AudioToolbox.framework */; };
+		8206690018E31BFF00038B72 /* Washington.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 820668FF18E31BFF00038B72 /* Washington.mp3 */; };
+		8206690218E31D4600038B72 /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8206690118E31D4600038B72 /* imgres.jpg */; };
+		8206690518E336E100038B72 /* btverde.png in Resources */ = {isa = PBXBuildFile; fileRef = 8206690318E336E100038B72 /* btverde.png */; };
+		8206690618E336E100038B72 /* free-vector-red-power-button-clip-art_117509_Red_Power_Button_clip_art_hight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8206690418E336E100038B72 /* free-vector-red-power-button-clip-art_117509_Red_Power_Button_clip_art_hight.png */; };
+		8206690818E33A3700038B72 /* sabedeNada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8206690718E33A3700038B72 /* sabedeNada.mp3 */; };
+		8206690B18E33C7D00038B72 /* queabundancia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8206690918E33C7D00038B72 /* queabundancia.mp3 */; };
+		8206690C18E33C7D00038B72 /* danada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8206690A18E33C7D00038B72 /* danada.mp3 */; };
+		827781A018E3411D001CEB22 /* 17878.png in Resources */ = {isa = PBXBuildFile; fileRef = 8277819F18E3411D001CEB22 /* 17878.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,15 @@
 		820668EF18E315E400038B72 /* instantCumpadiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "instantCumpadiTests-Info.plist"; sourceTree = "<group>"; };
 		820668F118E315E400038B72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		820668F318E315E400038B72 /* instantCumpadiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instantCumpadiTests.m; sourceTree = "<group>"; };
+		820668FD18E317C300038B72 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		820668FF18E31BFF00038B72 /* Washington.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Washington.mp3; path = ../../../../Desktop/Washington.mp3; sourceTree = "<group>"; };
+		8206690118E31D4600038B72 /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = imgres.jpg; path = ../../../../Desktop/imgres.jpg; sourceTree = "<group>"; };
+		8206690318E336E100038B72 /* btverde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btverde.png; sourceTree = "<group>"; };
+		8206690418E336E100038B72 /* free-vector-red-power-button-clip-art_117509_Red_Power_Button_clip_art_hight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "free-vector-red-power-button-clip-art_117509_Red_Power_Button_clip_art_hight.png"; sourceTree = "<group>"; };
+		8206690718E33A3700038B72 /* sabedeNada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sabedeNada.mp3; sourceTree = "<group>"; };
+		8206690918E33C7D00038B72 /* queabundancia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = queabundancia.mp3; sourceTree = "<group>"; };
+		8206690A18E33C7D00038B72 /* danada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = danada.mp3; sourceTree = "<group>"; };
+		8277819F18E3411D001CEB22 /* 17878.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17878.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820668FE18E317C300038B72 /* AudioToolbox.framework in Frameworks */,
 				820668CB18E315E400038B72 /* CoreGraphics.framework in Frameworks */,
 				820668CD18E315E400038B72 /* UIKit.framework in Frameworks */,
 				820668C918E315E400038B72 /* Foundation.framework in Frameworks */,
@@ -101,6 +120,7 @@
 		820668C718E315E400038B72 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				820668FD18E317C300038B72 /* AudioToolbox.framework */,
 				820668C818E315E400038B72 /* Foundation.framework */,
 				820668CA18E315E400038B72 /* CoreGraphics.framework */,
 				820668CC18E315E400038B72 /* UIKit.framework */,
@@ -114,9 +134,11 @@
 			children = (
 				820668D718E315E400038B72 /* DRIAppDelegate.h */,
 				820668D818E315E400038B72 /* DRIAppDelegate.m */,
-				820668DA18E315E400038B72 /* Main.storyboard */,
 				820668DD18E315E400038B72 /* DRIViewController.h */,
 				820668DE18E315E400038B72 /* DRIViewController.m */,
+				820668DA18E315E400038B72 /* Main.storyboard */,
+				8206690D18E33C8E00038B72 /* Sounds */,
+				8206690E18E33C9A00038B72 /* Images */,
 				820668E018E315E400038B72 /* Images.xcassets */,
 				820668CF18E315E400038B72 /* Supporting Files */,
 			);
@@ -150,6 +172,28 @@
 				820668F018E315E400038B72 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8206690D18E33C8E00038B72 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8206690918E33C7D00038B72 /* queabundancia.mp3 */,
+				8206690A18E33C7D00038B72 /* danada.mp3 */,
+				820668FF18E31BFF00038B72 /* Washington.mp3 */,
+				8206690718E33A3700038B72 /* sabedeNada.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		8206690E18E33C9A00038B72 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8206690118E31D4600038B72 /* imgres.jpg */,
+				8277819F18E3411D001CEB22 /* 17878.png */,
+				8206690318E336E100038B72 /* btverde.png */,
+				8206690418E336E100038B72 /* free-vector-red-power-button-clip-art_117509_Red_Power_Button_clip_art_hight.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +274,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				820668E118E315E400038B72 /* Images.xcassets in Resources */,
+				827781A018E3411D001CEB22 /* 17878.png in Resources */,
+				8206690218E31D4600038B72 /* imgres.jpg in Resources */,
+				8206690B18E33C7D00038B72 /* queabundancia.mp3 in Resources */,
+				8206690C18E33C7D00038B72 /* danada.mp3 in Resources */,
 				820668D318E315E400038B72 /* InfoPlist.strings in Resources */,
+				8206690018E31BFF00038B72 /* Washington.mp3 in Resources */,
+				8206690818E33A3700038B72 /* sabedeNada.mp3 in Resources */,
+				8206690618E336E100038B72 /* free-vector-red-power-button-clip-art_117509_Red_Power_Button_clip_art_hight.png in Resources */,
 				820668DC18E315E400038B72 /* Main.storyboard in Resources */,
+				8206690518E336E100038B72 /* btverde.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +509,7 @@
 				820668F918E315E400038B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		820668FA18E315E400038B72 /* Build configuration list for PBXNativeTarget "instantCumpadiTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +518,7 @@
 				820668FC18E315E400038B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
