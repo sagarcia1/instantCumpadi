@@ -35,7 +35,7 @@
     NSString *effetc;
     
     
-            effetc = @"Washington";
+            effetc = @"Washington2";
     
     
     
